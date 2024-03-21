@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 2</title>
+
+    <link rel="stylesheet" href="./css/task2.css" />
+  </head>
+  <body>
+    <h2>Make API Call</h2>
+    <div id="importScreen">
+      <h3>Step1:</h3>
+      <div class="format">
+        <h4>Select File</h4>
+        <input type="file" id="fileInput" accept=".csv,.json" />
+        <p>Supported File Type(s): .CSV, .JSON</p>
+      </div>
+    </div>
+    <div class="specify">
+      <h2>Step2:</h2>
+      <div class="file">
+        <h4>Sepicfy Format</h4>
+        <p>File Type</p>
+        <input type="text" name="" id="" accept="csv,json" />
+        <p>Character Encoding</p>
+        <input type="text" name="" id="" />
+        <p>Delimiter</p>
+        <input type="text" name="" id="" />
+        <p>Has Header</p>
+        <input type="checkbox" name="" id="" />
+      </div>
+    </div>
+    <div id="displayOptions">
+      <input type="checkbox" />
+      <h3 id="uniq">STEP 3:</h3>
+      <div class="dis">
+        <h4>Display Handling</h4>
+        <p>Select the fields to be displayed</p>
+        <p>Available Fields Files to be displayed</p>
+        <select id="availableFields" multiple>
+          <option value="productId">Product Id</option>
+          <option value="title">Title</option>
+          <option value="subcategory">Subcategory</option>
+          <option value="price">Price</option>
+          <option value="popularity">Popularity</option>
+        </select>
+        <button onclick="addField()">>>></button>
+        <button onclick="removeField()"><<<</button>
+
+        <select id="displayedFields" multiple></select>
+      </div>
+    </div>
+    <div class="display">
+      <button onclick="displayData()">Show Result</button>
+    </div>
+  </body>
+
+  <script src="./js/task2.js"></script>
+</html>

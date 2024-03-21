@@ -1,0 +1,102 @@
+body {
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+#importScreen {
+    margin-bottom: 20px;
+    border: 1px solid black;
+    width: 40%;
+    padding: 30px;
+}
+
+#displayOptions {
+    margin-bottom: 20px;
+}
+
+select,
+button {
+    margin: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table,
+th,
+td {
+    border: 1px solid #ddd;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.format {
+    position: relative;
+    margin-left: 80px;
+    margin-top: -40px;
+}
+
+.display {
+    bottom: -5px;
+    right: 24px;
+    position: absolute;
+}
+
+.display button {
+    background-color: green;
+}
+
+#displayOptions {
+    margin-bottom: 20px;
+    border: 1px solid black;
+    width: 40%;
+    padding: 30px;
+}
+
+#uniq {
+    position: relative;
+    margin-left: 26px;
+    margin-top: -22px;
+}
+.dis{
+    position: relative;
+    margin-left: 26px;
+    margin-top: 0px;
+}
+.specify{
+    margin-bottom: 20px;
+    border: 1px solid black;
+    width: 45%;
+    padding: 30px;
+    float:right;
+    top:95px;
+    left: 48%;
+    position: absolute;
+}
+ .file{
+    position: relative;
+    margin-left: 92px;
+    margin-top: -45px;
+ }
+ .file input{
+    
+    display: flexbox;
+    float: right;
+    
+    padding:5px;
+    margin-top: -50px;
+ }
+ .file p{
+    padding: 3px;
+ }
